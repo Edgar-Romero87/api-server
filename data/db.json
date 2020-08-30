@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "jon",
+      "display_name": "Edgar Romero",
+      "description": "full name",
+      "id": 1
+    },
+    {
+      "name": "Romero",
+      "display_name": "Edgar Romero",
+      "description": "2full name",
+      "id": 2
+    },
+    {
+      "name": "Edgar",
+      "display_name": "Edgar Romero",
+      "description": "categories full name",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "edgar",
+      "display_name": "Edgar Romero",
+      "description": "full name",
+      "id": 1
+    },
+    {
+      "name": "Romero",
+      "display_name": "Edgar Romero",
+      "description": "2full name",
+      "id": 2
+    }
+  ]
+}
