@@ -1,8 +1,8 @@
 'use strict';
 
-const { app } = require('../lib/server');
+const { server } = require('../lib/server');
 const supertest = require('supertest');
-const mockRequest = supertest(app);
+const mockRequest = supertest(server);
 
 
 describe('testing get method', () =>{
@@ -73,6 +73,25 @@ describe('testing post', () =>{
     .post('/categories')
     .then(results => {
       expect(results.status).toBe(200);
+    })
+  })
+
+  describe('Testing Delete', () => {
+
+    it('It should respond with status 200', () => {
+      return mockRequest
+        .delete('/products/:id')
+        .then(results => {
+          expect(results.status).toBe(200)
+        })
+    })
+  
+    it('It should respond with status 200', () => {
+      return mockRequest
+        .delete('/categories/:id')
+        .then(results => {
+          expect(results.status).toBe(200)
+        })
     })
   })
 
