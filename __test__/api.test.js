@@ -59,7 +59,7 @@ describe('test error handling', () =>{
   // })
 })
 
-describe('testing post', () =>{
+describe('Testing post', () =>{
   it('it should respond with status 200', () =>{
     return mockRequest
     .post('/products')

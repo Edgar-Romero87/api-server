@@ -6,10 +6,6 @@ const server = require('./lib/server');
 require('dotenv').config();
 
 
-
-//server.start(process.env.PORT);
-
-
 const mongooseOptions = {
   useNewUrlParser: true,
   useCreateIndex: true,
