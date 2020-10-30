@@ -40,3 +40,6 @@ Command method to manipulate the data:
 - 2020-Aug 29: Moving away from 'jason-server' and creating a real API of our own, using Express. Replicating the input/output of json-server but storing data in memory to simulate full CRUD functionality, but without persistence.
 
 - 2020-Sep 3: Phase 3,of development, modularize our server, making it easier to manage as well as adding a much needed persistence layer, saving all API data to a Mongo database.
+
+## UML
+![api visualization](UML/api-server.png)
